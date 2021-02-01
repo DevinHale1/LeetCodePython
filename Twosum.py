@@ -21,6 +21,8 @@ class Solution(object):
 
             else:
                 count1 +=1
+                if count1 == count:
+                    count1 +=1
                                
             if count1 > len(nums) - 1:
                 count +=1
